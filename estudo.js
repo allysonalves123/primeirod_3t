@@ -72,4 +72,3 @@ function adicao(){
             let r = Number(val1) * Number(p);
             document.getElementById("resultado").innerHTML =r;
             }
-    
