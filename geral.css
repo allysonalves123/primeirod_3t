@@ -1,11 +1,26 @@
-
-
 #calculadora {
     background: rgb(7, 92, 78);
     width: 200px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px rgb(25, 190, 135);
+}
+.spMes {
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    background: blanchedalmond;
+    color: red;
+    text-align: start;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+#calculadora input:focus {
+    background: black;
+    color: white;
 }
 #calculadora input {
     background: black;
@@ -33,7 +48,7 @@
     cursor: pointer;
 }
 h3 {
-    color: black;
+    color: rgb(43, 168, 127);
 }
 .calcF {
     display: none;
@@ -41,8 +56,7 @@ h3 {
 #input-calcF {
     display: none;
 }
-#input-calcF:checked + .calculadora .calcF {
+#input-calcF:checked + #calculadora  .calcF {
     display: block;
 }
-#input-calcF:checked + #calculadora .calcF {
-    display: block;
+Footer
